@@ -1,0 +1,10 @@
+/* TEAM */
+
+title: Matthew Hillman
+Site: www.matthewhillman.co.uk
+Email: hello@matthewhillman.co.uk
+
+/* SITE */
+
+Last update: Thu 17th May 2018
+Components: Bootstrap 4.0, Google Fonts

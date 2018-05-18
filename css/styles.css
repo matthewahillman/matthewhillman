@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Lato|Merriweather');
+body
+{
+    font-family: 'Lato', sans-serif;  font-size: 16px;     color: #e1e1e2;  background: #1b1d2a;
+}
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    font-family: 'Merriweather', serif;  color: #e1e1e2;
+}
+a
+{
+    text-decoration: underline;  color: #f2b632;
+}
+a:hover
+{
+    text-decoration: none;  color: #e1e1e2;
+}
+.navbar-nav a,
+h3 a,
+.btn
+{
+    text-decoration: none;
+}
+.navbar-brand,
+.logo
+{
+    font-family: 'Pacifico', cursive;  font-size: 2rem; text-decoration: none;
+}
+.blue
+{
+    background: #252839;
+}
+.portfolio h3 a
+{
+    color: #fff;
+}
+.portfolio h3 a:hover
+{
+    text-decoration: underline;  color: inherit;
+}
+.strap
+{
+    font-family: 'Merriweather', serif;  color: #fff;
+}
+.strap span,
+.contact span
+{
+    font-family: 'Pacifico', cursive;  color: #f2b632;
+}
+.fa-rocket
+{
+    color: #f2b632;
+}
+.yellow
+{
+    color: #1b1d2a;  background: #f2b632;
+}
+.contact h3,
+.contact h4
+{
+    color: #fff;
+}
+cc a
+{
+    font-size: 12px;
+}
+footer
+{
+    padding-top: 20px;  color: #f2f2f2;
+}
+footer a
+{
+    color: #f2f2f2;
+}
+@media (max-width: 575.98px)
+{
+    .display-1
+    {
+        font-size: 3rem;
+    }
+    .navbar-brand
+    {
+        font-size: inherit;
+    }
+}
+@media (min-width: 576px)
+{
+    .display-1
+    {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 768px)
+{
+    .display-1
+    {
+        font-size: 5rem;
+    }
+}
+@media (min-width: 992px)
+{
+    .display-1
+    {
+        font-size: 6rem;
+    }
+}

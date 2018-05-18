@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-GB" itemtype="http://schema.org/LocalBusiness">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Matthew Hillman - Web Designer / Front End Developer</title>
+    <meta name="description" content=""/>
+    <meta
+      name="keywords"
+      content="swindon web design, wiltshire, wiltshire web design, wroughton web design, web design, website design, web designers, web design agency, web development, wordpress, content management system, responsive design, mobile website, web design company"/>
+    <meta name="author" content="humans.txt"/>
+    <meta name="msvalidate.01" content="8F574D0BEA678F4B303C6387A0AC6B76"/>
+    <meta name="google-site-verification" content="c4B4lZaf2l6JvwowwoCAg-Lt3yZ-ilxF4aEZm7sX-7M"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta itemprop="name" content="Matthew Hillman - Web Designer / Front End Developer"/>
+    <meta itemprop="description" content=""/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-md sticky-top navbar-dark" style="background: #1b1d2a;">
+              <a class="navbar-brand" href="#">
+                MH</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid py-4 text-center sub">
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4 py-2">Contact Us</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+      <div class="row">
+        <div class="col">
+          <h3>Send us an Email</h3>
+          <form id="contact-form" method="post" action="contact.php" role="form">
+            <div class="controls">
+              <div class="row">
+                <div class="col-auto">
+                  <div class="form-group">
+                    <label for="form_name">Forename *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Forename" required="required" data-error="Forename">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="form-group">
+                    <label for="form_lastname">Surname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Surname" required="required" data-error="Surname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-auto">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" class="form-control" aria-describedby="emailHelp" required="required" placeholder="Email" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Phone Number">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="form_message">Message *</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+
+              <div class="form-group">
+                <div class="g-recaptcha" data-sitekey="6LeneRATAAAAADEATb1pmfdUHvcTgQvETut2Szzc" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                <input class="form-control d-none" data-recaptcha="true" required="required" data-error="Please complete the Captcha">
+                <div class="help-block with-errors"></div>
+              </div>
+
+              <input type="submit" class="btn btn-dark btn-send" value="Send message">
+
+              <p class="text-muted py-4">
+                <strong>*</strong>
+                These fields are required.
+              </p>
+
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid blue py-2">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col text-center">
+            <h3>Let's chat over a coffee?
+              <a href="contact.html">
+                <button type="button" class="btn btn-secondary btn-sm yellow">Contact Us</button>
+              </a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              hello@matthewhillman.co.uk
+            </p>
+          </div>
+          <div class="col text-right">
+            &copy; 2018 Matthew Hillman. All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-116658316-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-116658316-1');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+
+</html>
