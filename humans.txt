@@ -6,5 +6,5 @@ Email: hello@matthewhillman.co.uk
 
 /* SITE */
 
-Last update: Thu 17th May 2018
-Components: Bootstrap 4.0, Google Fonts
+Last update: Wed 1st August 2018
+Components: Bootstrap 4.1.3, Google Fonts
